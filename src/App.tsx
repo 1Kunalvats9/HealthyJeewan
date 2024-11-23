@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { ChefHat, Coffee, Utensils, Cookie, Cake } from 'lucide-react';
+// import { ChefHat, Coffee, Utensils, Cookie, Cake } from 'lucide-react';
 import Navbar from './components/Navbar';
 import FeaturedRecipes from './components/FeaturedRecipes';
 import Categories from './components/Categories';
 import Footer from './components/Footer';
+import AdminLogin from './components/AdminLogin';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -48,10 +49,8 @@ function App() {
             </motion.p>
           </div>
         </motion.section>
-
         {/* Categories Section */}
         <Categories />
-
         {/* Featured Recipes */}
         <FeaturedRecipes />
       </main>

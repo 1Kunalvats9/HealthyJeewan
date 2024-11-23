@@ -22,7 +22,7 @@ const recipes = [
     category: 'Breakfast',
     time: '10 mins',
     servings: 1,
-    image: 'https://images.unsplash.com/photo-1490323914169-4d5db28abf90?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80',
+    image: 'https://images.unsplash.com/photo-1517673400267-0251440c45dc?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80',
   },
 ];
 
